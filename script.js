@@ -205,23 +205,21 @@
 
 // 12-masala
 
-let a = +prompt("Ixtiyoriy son kiriting");
-let b = +prompt("Ixtiyoriy son kiriting");
-let c = +prompt("Ixtiyoriy son kiriting");
-let sum = 0;
-let count = 0;
-if(a>0){
-    sum += a;
-    count++;
-}
-if(b>0){
-    sum += b;
-    count++;
-}
-if(c>0){
-    sum += c;
-    count++;
-}
-alert(sum/count);
-
-
+// let a = +prompt("Ixtiyoriy son kiriting");
+// let b = +prompt("Ixtiyoriy son kiriting");
+// let c = +prompt("Ixtiyoriy son kiriting");
+// let sum = 0;
+// let count = 0;
+// if(a>0){
+//     sum += a;
+//     count++;
+// }
+// if(b>0){
+//     sum += b;
+//     count++;
+// }
+// if(c>0){
+//     sum += c;
+//     count++;
+// }
+// alert(sum/count);
