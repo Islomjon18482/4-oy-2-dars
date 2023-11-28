@@ -1,105 +1,227 @@
+
 // 1-masala
-let a = prompt("a sonini kiriting");
-let b = prompt("b sonini kiriting");
-if (a > b){
-    alert("Javob:" + " " + a**2);
-} else{
-    alert("Javob:" + " " + b**2);
-}
 
+// let a = prompt("2 xonali son kiriting");
+// let b = prompt("2 xonali son kiriting");
+// let max;
+// if(a > b){
+//     max = ((a-(a%10))/10);
+// }else{
+//     max = ((b-(b%10))/10);
+// }
+// alert(`Javob: ${max}`);
 
-var next = confirm("2-masalaga o'tish");
 // 2-masala
-let c = prompt("c sonini kiriting");
-let d = prompt("d sonini kiriting");
-let i = prompt("i sonini kiriting");
-if(d >= c){
-    if(d > i){
-        alert("Eng katta son:" + " " + d)
-    }else{
-        alert("Eng katta son:" + " " + i)
-    }
-}else{
-    if(c >= i){
-        alert("Eng katta son:" + " " + c)
-    }else{
-        alert("Eng katta son:" + " " + i)
-    }
-}
 
-var next = confirm("3-masalaga o'tish");
+// let n = prompt("3 xonali son kiriting");
+// let b = n%10;
+// let o = (n-b)/10%10;
+// let y = (n-10*o-b)/100;
+// let min;
+// if (b < o){
+//     min = b;
+// }else{
+//     min = o;
+// }
+// if (min > y){
+//     min=y
+// }
+// alert(`Javob: ${min}`)
+
 // 3-masala
-let n = prompt("n sonini kiriting");
-if(n%2==1){
-    alert("Bu son toq son")
-}else{
-    alert("Bu son juft son")
-}
 
-var next = confirm("4-masalaga o'tish");
+// let n = prompt("3 xonali son kiriting");
+// let b = n%10;
+// let o = (n-b)/10%10;
+// let res;
+// if(o%3==0){
+//     res="Rost"
+// }else{
+//     res="Yolg'on"
+// }
+// alert(`Javob: ${res}`)
+
 // 4-masala
-let f = prompt("f sonini kiriting");
-if(f%5==0){
-    alert("Berilgan son 5ga karrali")
-}else{
-    alert("Berilgan son 5ga karrali emas")
-}
 
-var next = confirm("5-masalaga o'tish");
+// let b=prompt("Ixtiyoriy son kiriting");
+// let o=prompt("Ixtiyoriy son kiriting");
+// let y=prompt("Ixtiyoriy son kiriting");
+// let min;
+// if (b < o){
+//     min = b;
+// }else{
+//     min = o;
+// }
+// if (min > y){
+//     min=y
+// }
+// alert(min**3);
+
 // 5-masala
-let g = prompt ("Ikki xonali son kiriting kiriting")
-let j = g % 10;
-let h = g - j;
-alert(h / 10);
 
-var next = confirm("6-masalaga o'tish");
+// let b=prompt("Ixtiyoriy son kiriting");
+// let o=prompt("Ixtiyoriy son kiriting");
+// let y=prompt("Ixtiyoriy son kiriting");
+// let j=prompt("Ixtiyoriy son kiriting");
+// let max;
+// if (b > o){
+//     max = b;
+// }else{
+//     max = o;
+// }
+// if (max < y){
+//     max=y
+// }
+// if (max < j){
+//     max=j
+// }
+// alert(`Javob: ${max}`);
+
 // 6-masala
-let k = prompt("Ikki xonali son kiriting kiriting");
-alert(k%10)
 
-var next = confirm("7-masalaga o'tish");
+// let b=+prompt("Ixtiyoriy son kiriting");
+// let o=+prompt("Ixtiyoriy son kiriting");
+// let y=+prompt("Ixtiyoriy son kiriting");
+// let min;
+// if (b < o){
+//     min = b;
+// }else{
+//     min = o;
+// }
+// if (min > y){
+//     min=y;
+// }
+// let max; 
+// if (b > o){
+//     max = b;
+// }else{
+//     max = o;
+// }
+// if (max < y){
+//     max=y;
+// }
+// let sum = o+y+b;
+// let middle = sum - max - min;
+// alert(`Javob: ${middle}`);
+
 // 7-masala
-let p = prompt("Ikki xonali son kiriting");
-let q = p % 10;
-let z = (p-q) / 10;
-if (z > q){
-    alert("O'nlar xonasidagi raqam birlar xonasidagi raqamdan katta")
-}else{
-    alert("Birlar xonasidagi raqam o'nlar xonasidagi raqamdan katta")
-}
 
-var next = confirm("8-masalaga o'tish");
+// let b=+prompt("Ixtiyoriy son kiriting");
+// let o=+prompt("Ixtiyoriy son kiriting");
+// let y=+prompt("Ixtiyoriy son kiriting");
+// let min;
+// if (b < o){
+//     min = b;
+// }else{
+//     min = o;
+// }
+// if (min > y){
+//     min=y
+// }
+// let max; 
+// if (b > o){
+//     max = b;
+// }else{
+//     max = o;
+// }
+// if (max < y){
+//     max=y
+// }
+// let sum = o+y+b;
+// let middle = sum-max-min;
+// alert(middle + " " + "va" + " " + max);
+
 // 8-masala
-let x = prompt("Ikki xonali son kiriting");
-if (x%2==0){
-    alert(true)
-}else{
-    alert(false)
-}
 
-var next = confirm("9-masalaga o'tish");
+// let a = +prompt("Ixtiyoriy son kiriting");
+// let b = +prompt("Ixtiyoriy son kiriting");
+// let c = +prompt("Ixtiyoriy son kiriting");
+// let d = +prompt("Ixtiyoriy son kiriting");
+// let e = +prompt("Ixtiyoriy son kiriting");
+// let counter = 0;
+// if(a%3==0){
+//     counter++;
+// }
+// if(b%3==0){
+//     counter++;
+// }
+// if(c%3==0){
+//     counter++;
+// }
+// if(d%3==0){
+//     counter++;
+// }
+// if(e%3==0){
+//     counter++;
+// }
+// alert(counter);
+
 // 9-masala
-let o = prompt("Uch xonali son kiriting");
-let y = o % 100
-let res = (o - y)/100
-alert(res);
 
-var next = confirm("10-masalaga o'tish");
+// let a = +prompt("Ixtiyoriy son kiriting");
+// let b = +prompt("Ixtiyoriy son kiriting");
+// let c = +prompt("Ixtiyoriy son kiriting");
+// let d = +prompt("Ixtiyoriy son kiriting");
+// let counter = 0;
+// if(a%3==0 || a%5==0){
+//     counter++;
+// }
+// if(b%3==0 || b%5==0){
+//     counter++;
+// }
+// if(c%3==0 || c%5==0){
+//     counter++;
+// }
+// if(d%3==0 || d%5==0){
+//     counter++;
+// }
+// alert(counter);
+
 // 10-masala
-let w = prompt("Uch xonali son kiriting");
-let r = w%10;
-let u = ((w-r)/10)%10;
-let m = (w-r-(u*10))/100;
-if(r >= u){
-    if(r > m){
-        alert("Eng katta raqam:" + " " + r)
-    }else{
-        alert("Eng katta raqam:" + " " + m)
-    }
-}else{
-    if(u >= m){
-        alert("Eng katta raqam:" + " " + u)
-    }else{
-        alert("Eng katta raqam:" + " " + m)
-    }
+
+// let a = +prompt("Ixtiyoriy son kiriting");
+// let b = +prompt("Ixtiyoriy son kiriting");
+// let c = +prompt("Ixtiyoriy son kiriting");
+// let res = a+b+c;
+// alert(res);
+
+// 11-masala
+
+// let n = +prompt("Ixtiyoriy son kiriting");
+// let b = n%10;
+// let o = (n-b)/10%10;
+// let y = (n-10*o-b)/100;
+// let res = 1;
+// if(b%2==0){
+//     res *= b;
+// }
+// if(o%2==0){
+//     res *= o;
+// }
+// if(y%2==0){
+//     res *= y;
+// }
+// alert(res);
+
+// 12-masala
+
+let a = +prompt("Ixtiyoriy son kiriting");
+let b = +prompt("Ixtiyoriy son kiriting");
+let c = +prompt("Ixtiyoriy son kiriting");
+let sum = 0;
+let count = 0;
+if(a>0){
+    sum += a;
+    count++;
 }
+if(b>0){
+    sum += b;
+    count++;
+}
+if(c>0){
+    sum += c;
+    count++;
+}
+alert(sum/count);
+
+
